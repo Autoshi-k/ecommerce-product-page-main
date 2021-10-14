@@ -61,6 +61,9 @@ p {
 }
 
 /* HEADER */
+.menu-logo {
+
+}
 
 .collapse img {
   height: .8em;
@@ -74,8 +77,6 @@ p {
 
 .logo {
   margin-left: .8em;
-  position: relative;
-  right: 2.5em;
   height: 1.1em;
 }
 
