@@ -1,0 +1,67 @@
+/* SECTION - image of product */
+
+section {
+  position: relative;
+}
+
+.product {
+  width: 100%;
+  height: 28em;
+  object-fit: cover;
+}
+
+.image-scroll {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.arrow {
+  height: 3.5em;
+  width: 3.5em;
+  background-color: white;
+  border-radius: 2em;
+}
+
+.arrow img {
+  height: 1.3em;
+}
+
+
+@media (min-width: 1150px) {
+  main {
+    display: flex;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product {
+    display: block;
+    height: 33em;
+    width: 33em;
+  }
+
+  .product, ul img {
+    border-radius: 15px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    width: 33em;
+    gap: 2.2em;
+  }
+
+  ul img {
+    width: 6.6em;
+    margin-top: 2.2em;
+  }
+  .image-scroll {
+    display: none;
+  }
+  
+}
