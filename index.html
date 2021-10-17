@@ -33,7 +33,10 @@
       <img class="logo" src="images/logo.svg" alt="">
     </div>
     <div class="header-cart f-space-between">
-      <img src="images/icon-cart.svg" alt="">
+      <div class="icon-cart">
+        <img src="images/icon-cart.svg" alt="">
+        <div id="user-cart" class="items-count"></div>
+      </div>
       <img class="user-avatar" src="images/image-avatar.png" alt="">
     </div>
   </header>
@@ -72,16 +75,19 @@
       </div>
       <div class="cart-container">
         <div class="cart f-space-between">
-          <img src="images/icon-minus.svg" alt="">
-          <p>0</p>
-          <img src="images/icon-plus.svg" alt="">
+          <div class="act-btn">
+            <img id="remove-item" src="images/icon-minus.svg" alt="">
+          </div>
+          <p class="items-count">0</p>
+          <div class="act-btn">
+            <img id="add-item" src="images/icon-plus.svg" alt="">
+          </div>
         </div>
-        <button class="cart f-center">
+        <button id="add-to-cart" class="cart f-center">
           <img src="images/icon-cart.svg" alt="">
           Add to cart
         </button>
-      </cart>
-    </div>
+      </div>
   
   </main>
 
@@ -89,5 +95,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Autoshi-k">Autoshi-k</a>.
   </div>
+
+  <script src="js/cart.js"></script>
+
 </body>
 </html>

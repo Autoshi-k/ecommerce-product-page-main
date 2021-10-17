@@ -59,6 +59,7 @@ section {
   ul img {
     width: 6.6em;
     margin-top: 2.2em;
+    cursor: pointer;
   }
   .image-scroll {
     display: none;

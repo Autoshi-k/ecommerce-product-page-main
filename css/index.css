@@ -102,6 +102,19 @@ button.cart img {
   height: 1rem;
 }
 
+.act-btn {
+  cursor: pointer;
+}
+
+div.act-btn {
+  padding: 1em;
+}
+
+#remove-item {
+  position: relative;
+  bottom: .2em;
+}
+
 @media (min-width: 1150px) {
   main {
     width: 90%;
@@ -150,4 +163,7 @@ button.cart img {
   button.cart {
     width: 60%;
   }
+
+  
+
 }

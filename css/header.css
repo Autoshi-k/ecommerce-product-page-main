@@ -33,6 +33,25 @@ header img {
   width: 3.5em;
 }
 
+.icon-cart {
+  position: relative;
+  cursor: pointer;
+}
+
+#user-cart {
+  position: absolute;
+  top: -.5em;
+  right: -.5em;
+  background-color: var(--Orange);
+  color: white;
+  text-align: center;
+  padding: 0 .5rem;
+  height: 1rem;
+  font-size: .8rem;
+  border-radius: 15px;
+  display: none;
+}
+
 ul {
   display: none;
 }
