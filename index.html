@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/productImage.css">
+  <link rel="stylesheet" href="css/cart.css">
 </head>
 <body>
 
@@ -30,15 +31,27 @@
           <li>Contact</li>
         </ul>
       </div>
-      <img class="logo" src="images/logo.svg" alt="">
+      <img class="logo" src="images/logo.svg" alt="lolo">
     </div>
     <div class="header-cart f-space-between">
       <div class="icon-cart">
-        <img src="images/icon-cart.svg" alt="">
+        <img id="icon-cart" src="images/icon-cart.svg" alt="cart">
         <div id="user-cart" class="items-count"></div>
       </div>
       <img class="user-avatar" src="images/image-avatar.png" alt="">
     </div>
+    <!-- <div class="dom-cart" >
+      <h3>Cart</h3>
+      <div class="dom-cart-container">
+        <img class="dom-img" src="images/image-product-1-thumbnail.jpg" alt="">
+        <div class="dom-items-info">
+          <p>Fall Limited Edition Sneakers</p>
+          <p>$125.00 x 3 <span>$375.00</span></p>
+        </div>
+        <img class="dom-remove" src="images/icon-delete.svg" alt="">
+      </div>
+      <button class="dom-checkout">Checkout</button>
+    </div> -->
   </header>
 
   <main>
@@ -97,6 +110,7 @@
   </div>
 
   <script src="js/cart.js"></script>
+  <script src="js/createCartPop.js"></script>
 
 </body>
 </html>
