@@ -110,6 +110,10 @@ button.cart img {
   cursor: pointer;
 }
 
+.act-btn img:hover {
+  filter: brightness(150%);
+}
+
 div.act-btn {
   padding: 1em;
 }
