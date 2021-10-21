@@ -5,6 +5,7 @@ let currentImg = 1;
 
 function closeLightbox() {
   lightbox.style.display = 'none';
+  removeClass(currentImg);
 }
 
 function openLightbox(image) {

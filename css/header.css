@@ -67,7 +67,8 @@ header li {
 }
 
 header li:hover {
-  border-bottom: 3px solid var(--Orange);
+  border-bottom: .1em solid var(--Orange);
+  padding-bottom: 1.7em;
 }
 
 
