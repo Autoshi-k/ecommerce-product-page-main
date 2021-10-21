@@ -52,7 +52,6 @@ section {
   ul {
     display: flex;
     list-style-type: none;
-    width: 33em;
     gap: 2.2em;
   }
 

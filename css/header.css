@@ -24,6 +24,11 @@ header img {
   height: 1.2em;
 }
 
+.user-avatar:hover {
+  border: 2px solid var(--Orange);
+  border-radius: 25px;
+}
+
 .logo {
   margin-left: .8em;
   height: 1.1em;
@@ -54,6 +59,11 @@ header img {
 
 ul {
   display: none;
+}
+
+li {
+  margin:0;
+  padding:0;
 }
 
 

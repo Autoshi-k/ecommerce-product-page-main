@@ -96,6 +96,10 @@ button.cart {
   filter: drop-shadow(0 1rem 0.75rem hsla(26, 100%, 55%, 0.274));
 }
 
+button.cart:hover {
+  background: var(--Pale-orange);
+}
+
 button.cart img {
   margin-right: 1em;
   filter: brightness(500%);
